@@ -164,7 +164,7 @@ blockquote p {
 }
 /* @group Table */
 table.neat {
-	width: 80%;
+	width: 90%;
 	margin: 1.5em auto 1.5em auto;
 	table-layout: fixed;
 	border-spacing: 0;
