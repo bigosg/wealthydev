@@ -94,7 +94,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : briansmiknowsblog
+      short_name : dd
     livefyre :
       site_id : 123
     intensedebate :
