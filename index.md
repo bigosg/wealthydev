@@ -1,24 +1,26 @@
 ---
 layout: page
-title: Welcome to Tech Talkin~ &rarr; {Ruby|ROR|Vim|Mac|Linux}
+title:  Brian's的个人博客
 tagline: Supporting tagline
 feed: atom.xml
 ---
 {% include JB/setup %}
 
+<!--
 <form action="/search.html" method="get" id="search_form">
 <div align='right'>
 <input type="text" name="q" placeholder="Keywords..." />
 </div>
 </form>
 
+
 [![Feed icon](/files/css/feed-icon-14x14.png){:title="Atom feed of recent posts" .right}][feed]
 [feed]: /atom.xml
-
+-->
 
 ## **RECENT POSTS**
 
-{% for post in site.posts limit:18%}
+{% for post in site.posts limit:30%}
 <div class="section list">
 <h1>{{ post.date | date_to_string }}</h1>
 <p class="line">
