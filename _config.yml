@@ -14,7 +14,7 @@ multiviews: true
 
 environments:
   production:
-    url: http://timtang.me
+    url: http://miknows.com
     remote:
       connection: timtang@173.255.253.43
       path: /srv/www/tim-tang.github.com/public_html/jekyll/_site
@@ -94,7 +94,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : timstechtalk
+      short_name : briansmiknowsblog
     livefyre :
       site_id : 123
     intensedebate :
