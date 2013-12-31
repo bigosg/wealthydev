@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<META name=description content="" />
+<META name=keywords content=""/>
+<title>首页</title>
+<LINK rel=stylesheet type=text/css href="css/style.css"></LINK>
+
+<link type="text/css" href="fangda/css/lrtk.css" rel="stylesheet" />
+<script type="text/javascript" src="fangda/js/jquery.js"></script>
+<script type="text/javascript">
+$(function(){ 
+	$('li').hover(function() {
+	    $(this).addClass('on');
+	    var wl = $(this).find('img').attr('width');
+	    if (wl < 190) {
+	        $(this).find('.in').css('left', '0')
+	    } else {
+	        $(this).find('.in').css('left', -wl / 4)
+	    }
+	},
+	function() {
+	    $(this).animate({
+	        height: "120px"
+	    },
+	    100).removeClass('on');
+	    $(this).find('.in').css('left', '0')
+	});
+})
+</script>
+
+</head>
+<body>
+<!--banner begin-->
+<div class="banner">  <Iframe   src="header.html" width=100% height=100% frameborder=0 scrolling="no"></Iframe>  
+</div>
+<!--banner end-->
+<!--focus begin-->
+<div class="wrap2">
+<p class="title">擺件</p>
+<ul class="box01">
+	<li>
+	<div class="in">
+			<img src="fangda/images/baijian/01.jpg" />
+		</div>
+	</li>
+		<li>
+	<div class="in">
+			<img src="fangda/images/baijian/02.jpg" />
+		</div>
+	</li>
+		<li>
+	<div class="in">
+			<img src="fangda/images/baijian/03.jpg" />
+		</div>
+	</li>
+		<li>
+	<div class="in">
+			<img src="fangda/images/baijian/04.jpg" />
+		</div>
+	</li>
+		<li>
+	<div class="in">
+			<img src="fangda/images/baijian/05.jpg" />
+		</div>
+	</li>
+		<li>
+	<div class="in">
+			<img src="fangda/images/baijian/06.jpg" />
+		</div>
+	</li>
+		<li>
+	<div class="in">
+			<img src="fangda/images/baijian/07.jpg" />
+		</div>
+	</li>
+		<li>
+	<div class="in">
+			<img src="fangda/images/baijian/08.jpg" />
+		</div>
+	</li>
+		<li>
+	<div class="in">
+			<img src="fangda/images/baijian/09.jpg" />
+		</div>
+	</li>
+		<li>
+	<div class="in">
+			<img src="fangda/images/baijian/10.jpg" />
+		</div>
+	</li>
+		<li>
+	<div class="in">
+			<img src="fangda/images/baijian/11.jpg" />
+		</div>
+	</li>
+		<li>
+	<div class="in">
+			<img src="fangda/images/baijian/12.jpg" />
+		</div>
+	</li>
+	<li>
+	<div class="in">
+			<img src="fangda/images/baijian/12.jpg" />
+		</div>
+	</li>
+</ul>
+</div>
+<div style="clear:both;"></div>
+<!--focus end-->
+<!--footer begin-->
+<div class="footer">  <Iframe   src="footer.html" width=100% frameborder=0 height="180px" scrolling="no"></Iframe>  
+</div>
+
+
+</div>
+
+</body>
+</html>
